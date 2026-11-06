@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class PesanKontak extends Model
+{
+    use HasFactory;
+
+    protected $table = 'pesan_kontaks';
+
+    protected $fillable = [
+        'user_id',
+        'nama',
+        'email',
+        'subjek',
+        'pesan',
+        'balasan',
+        'tanggal_balasan',
+        'status',
+    ];
+
+    protected $casts = [
+        'tanggal_balasan' => 'datetime',
+    ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
+}
