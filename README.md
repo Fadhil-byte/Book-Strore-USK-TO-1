@@ -25,6 +25,20 @@ Aplikasi Web Toko Buku USK (BukuKita USK) berbasis framework Laravel 12 dan PHP 
 - Manajemen Pengguna terdaftar.
 - Manajemen Pesan Masuk Pelanggan (membaca dan membalas pesan di tabel database `pesan_kontaks`).
 
+## Pratinjau Antarmuka (Screenshots)
+
+Folder `Preview_Foto/` memuat tangkapan layar antarmuka sistem:
+1. **Landing Page:** `Preview_Foto/LandingPages.JPG`
+2. **Halaman Login:** `Preview_Foto/Halaman_Login.JPG`
+3. **Halaman Registrasi:** `Preview_Foto/HalamanRegistrasi.JPG`
+4. **Keranjang Belanja User:** `Preview_Foto/CartBeliBukuUSer.JPG`
+5. **Riwayat Pesanan User:** `Preview_Foto/RiwayatBeliBukuUser.JPG`
+6. **Hubungi Admin (Contact):** `Preview_Foto/ContactAdmin.JPG`
+7. **Dashboard Admin:** `Preview_Foto/DashboardAdmin.JPG`
+8. **Tambah Buku (Admin):** `Preview_Foto/TambahBuku.JPG`
+9. **Edit Data Buku (Admin):** `Preview_Foto/EditDataBuku.JPG`
+10. **Konfirmasi Transaksi (Admin):** `Preview_Foto/KonfirmasiTransaksiAdmin.JPG`
+
 ## Spesifikasi Teknologi
 - Framework: Laravel 12
 - Bahasa: PHP 8.5
